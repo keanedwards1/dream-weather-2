@@ -14,6 +14,10 @@
       "use": "@vercel/static"
     },
     {
+      "src": "dreamwork.html",
+      "use": "@vercel/static"
+    },
+    {
       "src": "css/**/*",
       "use": "@vercel/static"
     },
@@ -28,9 +32,12 @@
   ],
   "routes": [
     {
+      "src": "/dreamwork",
+      "dest": "/dreamwork.html"
+    },
+    {
       "src": "/(.*)",
       "dest": "/index.html"
     }
   ]
 }
-
