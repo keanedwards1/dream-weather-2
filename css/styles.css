@@ -1,0 +1,28 @@
+site-footer {
+    color: #2c2cc0 !important;
+    background-color: #f5f5f5 !important;
+}
+
+/* body {
+    background-color: #ae3939 !important;
+    color: #ae3939 !important;
+} */
+
+.logo-wrapper {
+  display: flex;
+  align-items: center;
+  gap: 10px; /* space between the two images */
+}
+
+.nav-image {
+  height: 100%;
+  max-height: 60px; /* match your logo height */
+  width: auto;
+  object-fit: contain;
+}
+
+.header-image {
+  display: block;
+  height: auto;
+  max-height: 60px;
+}
