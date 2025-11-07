@@ -1,39 +1,19 @@
 {
   "version": 2,
   "builds": [
-    {
-      "src": "index.html",
-      "use": "@vercel/static"
-    },
-    {
-      "src": "about.html",
-      "use": "@vercel/static"
-    },
-    {
-      "src": "contact.html",
-      "use": "@vercel/static"
-    },
-    {
-      "src": "dreamwork.html",
-      "use": "@vercel/static"
-    },
-    {
-      "src": "css/**/*",
-      "use": "@vercel/static"
-    },
-    {
-      "src": "js/**/*",
-      "use": "@vercel/static"
-    },
-    {
-      "src": "images/**/*",
-      "use": "@vercel/static"
-    }
+    { "src": "index.html", "use": "@vercel/static" },
+    { "src": "about.html", "use": "@vercel/static" },
+    { "src": "contact.html", "use": "@vercel/static" },
+    { "src": "dreamwork.html", "use": "@vercel/static" },
+    { "src": "css/**/*", "use": "@vercel/static" },
+    { "src": "js/**/*", "use": "@vercel/static" },
+    { "src": "images/**/*", "use": "@vercel/static" }
   ],
   "routes": [
+    { "src": "/dreamwork", "dest": "/dreamwork.html" },
     {
-      "src": "/dreamwork",
-      "dest": "/dreamwork.html"
+      "src": "/(css|js|images)/(.*)",
+      "dest": "/\\1/\\2"
     },
     {
       "src": "/(.*)",
