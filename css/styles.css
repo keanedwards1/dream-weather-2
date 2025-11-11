@@ -1,6 +1,64 @@
-site-footer {
+.inside-header, .site-info, .footer-widgets {
+  color: #ffffff !important;
+  background-color: #758330 !important;
+  background-color: #6974d0 !important;
+}
+
+.sub-menu, .slideout-navigation {
+    background-color: #6974d0 !important;
+}
+
+/* .footer-widgets {
+  color: #e5e5ec !important;
+  background-color: #6b6dac !important;
+  background-color: #758330 !important;
+}
+
+.site-info {
+  color: #ebebf3 !important;
+  background-color: #6b6dac !important;
+  background-color: #758330 !important;
+} */
+
+body {
+    background-color: #fcfbfb !important;
+    color: #1e1111 !important;
+}
+
+.page-id-408 {
+    background-color: #fff3e7 !important;
+}
+
+/* .site-footer {
     color: #2c2cc0 !important;
     background-color: #f5f5f5 !important;
+} */
+
+
+.gb-element-ae84868d {  /* home page first section */
+    background-color: #fff3e7 !important;
+} 
+
+.gb-element-bcf4710f { /* home page second section */
+    background-color: #423362 !important;
+    background-color: #858e2f !important;
+    color: black;
+}
+
+.body {
+    background-color: #fff3e7 !important;
+    color: #1e1111 !important;
+}
+
+.gb-element-70589c9b { /* home page third section */
+    background-color: #fff8ef !important;
+    color: black;
+}
+
+.book-cover-home {
+    background-color: #fff3e7 !important;
+    color: black !important;
+    border-radius: 8px;
 }
 
 /* body {
@@ -16,7 +74,7 @@ site-footer {
 
 .nav-image {
   height: 100%;
-  max-height: 60px; /* match your logo height */
+  max-height: 85px; /* match your logo height */
   width: auto;
   object-fit: contain;
 }
@@ -24,15 +82,152 @@ site-footer {
 .header-image {
   display: block;
   height: auto;
-  max-height: 60px;
+  max-height: 85px;
 }
 
-.gb-element-bcf4710f {
-    background-color: #aaa5b5 !important;
-    color: black;
+.site-header, .inside-header{
+    height: 20vh;
+}
+
+.nav-image, .header-image {
+    height: 500px !important;
+    width: auto !important;
+}
+
+.main-navigation a {
+    font-size: 20px !important;
 }
 
 .gb-element-bcf4710f em {
     color: black !important;
     color: white !important;
 }
+
+.sub-menu a {
+    color: rgb(236, 240, 239) !important;
+}
+.sub-menu a:hover, .sub-menu a:focus, .sub-menu a:active {
+    color: rgb(193, 220, 228) !important;
+}
+.main-navigation .main-nav ul li:not([class*="current-menu-"]):hover>a,.main-navigation .main-nav ul li:not([class*="current-menu-"]):focus>a,.main-navigation .main-nav ul li.sfHover:not([class*="current-menu-"])>a,.main-navigation .menu-bar-item:hover>a,.main-navigation .menu-bar-item.sfHover>a {
+    color: rgb(252, 247, 247) !important;
+}
+.main-navigation .main-nav ul li[class*="current-menu-"]>a {
+    color: rgb(193, 220, 228);
+}
+.main-navigation .main-nav ul li a, .main-navigation .menu-toggle, .main-navigation .menu-bar-items {
+    color: white;
+}
+a:hover, a:focus, a:active {
+    color: white !important;
+}
+
+
+/* saved dreamwork inline styles
+
+.sub-menu {
+            background-color: #7779b6 !important;
+        }
+
+        .sub-menu a {
+            color: rgb(236, 240, 239) !important;
+        }
+
+        .sub-menu a:hover,
+        .sub-menu a:focus,
+        .sub-menu a:active {
+            color: rgb(193, 220, 228) !important;
+        }
+
+        .main-navigation .main-nav ul li:not([class*="current-menu-"]):hover>a,
+        .main-navigation .main-nav ul li:not([class*="current-menu-"]):focus>a,
+        .main-navigation .main-nav ul li.sfHover:not([class*="current-menu-"])>a,
+        .main-navigation .menu-bar-item:hover>a,
+        .main-navigation .menu-bar-item.sfHover>a {
+            color: rgb(196, 209, 218) !important;
+/*             color: black !important;
+         }
+
+        .main-navigation .main-nav ul li[class*="current-menu-"]>a {
+            color: rgb(193, 220, 228);
+/*             color: black !important;
+        }
+
+        .main-navigation .main-nav ul li a,
+        .main-navigation .menu-toggle,
+        .main-navigation .menu-bar-items {
+            color: white;
+/*             color: black !important;
+        }
+
+        a:hover,
+        a:focus,
+        a:active {
+            color: white !important;
+/*             color: black !important;
+        }
+
+        .inside-header {
+            color: black !important;
+            color: #7171be !important;
+            background-color: #6b6dac !important;
+/*             background-color: #fdfbf3 !important;
+        }
+
+        .footer-widgets {
+            color: #e5e5ec !important;
+            background-color: #6b6dac !important;
+        }
+
+        .site-info {
+            color: #ebebf3 !important;
+            background-color: #6b6dac !important;
+        }
+
+        body {
+            background-color: #ffffff !important;
+            color: #1e1111 !important;
+        }*/
+
+
+        /* saved index.html styles
+        
+        .sub-menu {
+    background-color: #7779b6 !important;
+}
+.sub-menu a {
+    color: rgb(236, 240, 239) !important;
+}
+.sub-menu a:hover, .sub-menu a:focus, .sub-menu a:active {
+    color: rgb(193, 220, 228) !important;
+}
+.main-navigation .main-nav ul li:not([class*="current-menu-"]):hover>a,.main-navigation .main-nav ul li:not([class*="current-menu-"]):focus>a,.main-navigation .main-nav ul li.sfHover:not([class*="current-menu-"])>a,.main-navigation .menu-bar-item:hover>a,.main-navigation .menu-bar-item.sfHover>a {
+    color: rgb(252, 247, 247) !important;
+}
+.main-navigation .main-nav ul li[class*="current-menu-"]>a {
+    color: rgb(193, 220, 228);
+}
+.main-navigation .main-nav ul li a, .main-navigation .menu-toggle, .main-navigation .menu-bar-items {
+    color: white;
+}
+a:hover, a:focus, a:active {
+    color: white !important;
+}
+
+.inside-header {
+    color: #7171be !important;
+  background-color: #6b6dac !important;
+}
+
+.footer-widgets {
+    color: #e5e5ec !important;
+  background-color: #6b6dac !important;
+}
+.site-info {
+    color: #ebebf3 !important;
+  background-color: #6b6dac !important;
+}
+body {
+    background-color: #fcfbfb !important;
+    color: #1e1111 !important;
+}*/
