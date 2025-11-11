@@ -56,11 +56,15 @@ body {
 
 .gb-element-70589c9b { /* home page third section */
     background-color: #fff8ef !important;
+        background-color: #ffffff !important;
+
     color: black;
 }
 
 .book-cover-home {
-    background-color: #fff3e7 !important;
+        background-color: #fefaf5 !important;
+            background-color: #fff3e7 !important;
+
     color: black !important;
     border-radius: 8px;
 }
@@ -76,9 +80,13 @@ body {
   gap: 10px; /* space between the two images */
 }
 
+.gb-element-ae84868d {
+    background-color: #ffffff !important;
+}
+
 .nav-image {
   height: 100%;
-  max-height: 85px; /* match your logo height */
+  max-height: 110px; /* match your logo height */
   width: auto;
   object-fit: contain;
 }
@@ -86,7 +94,7 @@ body {
 .header-image {
   display: block;
   height: auto;
-  max-height: 85px;
+  max-height: 80px;
 }
 
 .site-header, .inside-header{
