@@ -1,7 +1,8 @@
 .inside-header, .site-info, .footer-widgets {
   color: #ffffff !important;
+    background-color: #6974d0 !important;
+
   background-color: #758330 !important;
-  background-color: #6974d0 !important;
 }
 
 .sub-menu, .slideout-navigation {
@@ -40,8 +41,9 @@ body {
 } 
 
 .gb-element-bcf4710f { /* home page second section */
+        background-color: #858e2f !important;
+
     background-color: #423362 !important;
-    background-color: #858e2f !important;
     color: black;
 }
 

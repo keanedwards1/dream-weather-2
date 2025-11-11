@@ -8,7 +8,7 @@
 ├── index.html
 ├── js
 ├── nav.jpg
-├── nav1.jpeg
+├── nav.jpg
 ├── nav2.jpg
 ├── nav2.png
 ├── nav3.jpg
@@ -19,7 +19,7 @@
 │       ├── Gest.jpg
 │       ├── behold.jpg
 │       ├── nav.jpg
-│       ├── nav1.jpeg
+│       ├── nav.jpg
 │       ├── nav2.png
 │       ├── nav3.png
 │       └── nav4.jpg
