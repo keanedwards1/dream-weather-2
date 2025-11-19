@@ -37,6 +37,10 @@ body {
     background-color: #f5f5f5 !important;
 } */
 
+.gb-element-cf528734 {
+    padding-top: 3.5rem !important;
+}
+
 
 .gb-element-ae84868d {  /* home page first section */
     background-color: #fff3e7 !important;
@@ -86,7 +90,7 @@ body {
 
 .nav-image {
   height: 100%;
-  max-height: 110px; /* match your logo height */
+  max-height: 20vh; /* match your logo height */
   width: auto;
   object-fit: contain;
 }
@@ -94,11 +98,11 @@ body {
 .header-image {
   display: block;
   height: auto;
-  max-height: 80px;
+  max-height: 10vh;
 }
 
 .site-header, .inside-header{
-    height: 20vh;
+    height: 28vh;
 }
 
 .nav-image, .header-image {
